@@ -119,9 +119,10 @@ if (project.hasProperty('bintrayUser') && project.hasProperty('bintrayKey')) {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation project(':loading_button_core')
 }
 repositories {
     mavenCentral()

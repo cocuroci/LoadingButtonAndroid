@@ -24,15 +24,15 @@ import br.com.simplepass.loading_button_lib.Utils;
 import br.com.simplepass.loading_button_lib.UtilsJava;
 import br.com.simplepass.loading_button_lib.animatedDrawables.CircularAnimatedDrawable;
 import br.com.simplepass.loading_button_lib.animatedDrawables.CircularRevealAnimatedDrawable;
-import br.com.simplepass.loading_button_lib.interfaces.AnimatedButton;
-import br.com.simplepass.loading_button_lib.interfaces.OnAnimationEndListener;
+import br.com.leandroferreira.loading_view_core.interfaces.AnimatedView;
+import br.com.leandroferreira.loading_view_core.interfaces.OnAnimationEndListener;
 
 
 /**
  * Made by Leandro Ferreira.
  *
  */
-public class CircularProgressImageButton extends ImageButton implements AnimatedButton {
+public class CircularProgressImageButton extends ImageButton implements AnimatedView {
     private enum State {
         PROGRESS, IDLE, DONE, STOPED
     }

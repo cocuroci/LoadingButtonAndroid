@@ -1,1 +1,1 @@
-include ':app', ':loading-button-android'
+include ':app', ':loading-button-android', ':loading_button_core'

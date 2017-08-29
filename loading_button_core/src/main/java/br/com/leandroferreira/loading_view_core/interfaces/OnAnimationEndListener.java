@@ -1,4 +1,4 @@
-package br.com.simplepass.loading_button_lib.interfaces;
+package br.com.leandroferreira.loading_view_core.interfaces;
 
 /**
  * Created by Leandro Ferreira on 6/1/16.
